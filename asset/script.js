@@ -38,6 +38,13 @@ var symbolString = "!@#$%^&*()_-"
         if(yesSymbols){
             userChoiceList += symbolString
         }
-        console.log(userChoiceListgitg)
+        console.log(userChoiceList)
+        var password = ""
+        for (i=0;i<length; i++) {
+          var index = Math.floor(Math.random() * userChoiceList.length)
+          password += userChoiceList[index]
+        }
+     console.log(password)
+    
     }
  }
